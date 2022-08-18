@@ -1,0 +1,347 @@
+
+
+.img-nav{
+    background-image: url(../img/hero-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+.img-nav .layer-img-nav{
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 52%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text-layer{
+    font-size: 70px;
+    margin-bottom: 35px;
+}
+.img-nav .layer-img-nav h3::after{
+    content: '';
+    animation-name: anim;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anim {
+    0% {
+      content: "D|";
+    }
+    4% {
+      content: "De|";
+    }
+    8% {
+      content: "Des|";
+    }
+    12% {
+      content: "Desi|";
+    }
+    16% {
+      content: "Desin|";
+    }
+    20% {
+      content: "Design|";
+    }
+    24% {
+      content: "Designe|";
+    }
+    28% {
+      content: "Designer|";
+    }
+    32% {
+      content: "D|";
+    }
+    36% {
+      content: "De|";
+    }
+    40% {
+      content: "Dev|";
+    }
+    44% {
+      content: "Devl|";
+    }
+    48% {
+      content: "Devlo|";
+    }
+    52% {
+      content: "Devlop|";
+    }
+    56% {
+      content: "Devlope|";
+    }
+    60% {
+      content: "Devloper|";
+    }
+    64% {
+      content: "F|";
+    }
+    68% {
+      content: "Fr|";
+    }
+    72% {
+      content: "Fre|";
+    }
+    76% {
+      content: "Free|";
+    }
+    80% {
+      content: "Freel|";
+    }
+    84% {
+      content: "Freela|";
+    }
+    88% {
+      content: "Freelan|";
+    }
+    92% {
+      content: "Freelanc|";
+    }
+    96% {
+      content: "Freelance|";
+    }
+    100% {
+      content: "Freelancer|";
+    }
+    
+  }
+  
+
+.brd1{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(12, 123, 175);
+    margin-bottom: 10px;
+}
+
+section .SERVICES{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.brd-SERVICES{
+    width: 40px;
+    height: 4px;
+    background-color: #0078ff;
+    margin: auto;
+}
+/*start 2*/
+
+
+.skill-item p{
+  margin: 0;
+}
+
+
+
+/*end 2*/
+
+
+
+
+
+
+/*start 3*/
+
+.Services .row .Services-box {
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    background-color: #fff;
+  }
+  .Services-box:hover .ico-circle {
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #0077ff27;
+    transition: all 900ms ease;
+  }
+  .Services-box:hover .ico-circle {
+    color: #fff;
+  }
+  
+  .Services-ico {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+  }
+  .ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+  }
+  .Services-box .Services-ico .ico-circle i {
+    line-height: 0;
+  
+    font-size: 40px;
+    color: #1e1e1e;
+  }
+  
+  .Services .img-services {
+    background-image: url(../img/counters-bg.jpg);
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+  }
+  .Services .img-services .bg-img {
+    background-color: #0077ff9c;
+    height: 80vh;
+  }
+  .Services .img-services .bg-img .he {
+    height: 80vh;
+  }
+  .Services .img-services .bg-img .counter-box {
+    color: #fff;
+    text-align: center;
+  }
+  .Services .img-services .bg-img .counter-box .counter-ico {
+    margin-bottom: 1rem;
+  }
+  .Services .img-services .bg-img .counter-box .counter-ico .ico-circle {
+    height: 60px;
+    width: 60px;
+    line-height: 1.5;
+    box-shadow: 0 0 0 10px #cde1f8;
+  }
+  .Services .img-services .bg-img .counter-box .counter-num .counter {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+/*end 3*/
+
+
+/*start 4*/
+
+.home4{
+  background-image: url(../img/counters-bg.jpg);
+  height: 70%;
+  background-attachment: fixed;
+  
+}
+.layer-home4{
+  height: 100%;
+  background-color: #0078ffa1;
+}
+.icon-i{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid rgb(255, 255, 255);
+}
+
+
+.itms{
+    border-radius: 13px;
+    box-shadow: 0px 1px 4px 0px #ffffff;
+}
+
+/*end 4*/
+
+
+
+/* 5 */
+.img-hover{
+    overflow: hidden;
+}
+.img-hover img{
+    transition:  all 1s ;
+}
+
+.img-hover:hover img{
+    transform: scale(1.2);
+}
+/* 5 */
+
+
+/* 6 */
+.carouselpart{
+    background-image: url(../img/overlay-bg.jpg);
+    height: 85vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.carouseleLayer{
+    width: 100%;
+    height: 100%;
+    background-color: #0078ffa1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.carousel-indicators {
+  top: 100%;
+}
+.carousel-indicators button{
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+}
+/* 6 */
+
+
+
+/* 7 */
+.img-card{
+    width: 15%;
+    height: 15%;
+}
+.img-card img{
+    border-radius: 30px;
+}
+/* 7 */
+
+
+
+/* 8 */
+
+.home8{
+    background-image: url(../img/overlay-bg.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.layer-home8{
+    width: 100%;
+    height: 100%;
+    background-color: #0078ffa1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.btn-end{
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+/* 8 */
+
+
+
+
+
+
+
+
+
